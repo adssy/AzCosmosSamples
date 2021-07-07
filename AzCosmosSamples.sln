@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialize", "Serialize\Seri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionalBatch", "TransactionalBatch\TransactionalBatch.csproj", "{D995CC7A-1147-444D-AB4C-C2D009D2B690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzFunctionsSample", "AzFunctionsSample\AzFunctionsSample.csproj", "{4540479B-AE60-43C9-8F65-9ECCDDAEB292}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzFunctionsSample", "AzFunctionsSample\AzFunctionsSample.csproj", "{4540479B-AE60-43C9-8F65-9ECCDDAEB292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimisticConcurrency", "OptimisticConcurrency\OptimisticConcurrency.csproj", "{FD458CB4-CD00-4854-9F04-899D594FEE65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4540479B-AE60-43C9-8F65-9ECCDDAEB292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4540479B-AE60-43C9-8F65-9ECCDDAEB292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4540479B-AE60-43C9-8F65-9ECCDDAEB292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD458CB4-CD00-4854-9F04-899D594FEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD458CB4-CD00-4854-9F04-899D594FEE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD458CB4-CD00-4854-9F04-899D594FEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD458CB4-CD00-4854-9F04-899D594FEE65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
